@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intro/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,20 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.blueAccent,
-        body: Container(
-          child: Column(
-            children: [
-              CircleAvatar(),
-              Text("data"),
-              Text("data"),
-              Card(child: ListTile(leading: Icon(Icons.phone),),),
-              Card()
-            ],
-          ),
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
