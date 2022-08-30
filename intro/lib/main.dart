@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intro/home_page.dart';
 import 'package:intro/login_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +14,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       //home: HomePage(),
-      themeMode: ThemeMode.dark,
+      //themeMode: ThemeMode.dark,
       theme: ThemeData(primarySwatch: Colors.green),
       //Default rasta
-      initialRoute: "/home",
+      initialRoute: "/login",
       //Rasta
       routes: {
         "/home": (context) => HomePage(),
