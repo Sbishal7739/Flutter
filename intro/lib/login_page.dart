@@ -10,15 +10,13 @@ class loginPage extends StatelessWidget {
         child: Column(
           children: [
             Image.asset(
-              "assest/images/login_image.png",
+              "assest/images/sit.jpg",
               fit: BoxFit.scaleDown,
+              height: 300.0,
+              width: 200.0,
             ),
             const SizedBox(
               height: 20.0,
-            ),
-            const Text(
-              "Welcome",
-              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
             Padding(
               padding:
@@ -39,7 +37,7 @@ class loginPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 20.0,
+                    height: 16.0,
                   ),
                   ElevatedButton(
                     child: Text("Login"),

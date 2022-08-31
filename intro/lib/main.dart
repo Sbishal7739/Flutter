@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //home: HomePage(),
       //themeMode: ThemeMode.dark,
-      theme: ThemeData(primarySwatch: Colors.green),
+      theme: ThemeData(primarySwatch: Colors.indigo),
       //Default rasta
       initialRoute: "/login",
       //Rasta
